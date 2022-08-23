@@ -7,22 +7,21 @@ function valorDelViaje(){
     const valorFinal = cantidadDeKM * valorKM;
     console.log("El valor del viaje es:", "$" + valorFinal + ".-")
 }
+console.log("Direccion de partida:", direccion1)
+console.log("Direccion de llegada:", direccion2)
 
-function direccionDeInicio(){
-    console.log("Direccion de partida:", direccion1)
-}
-
-function direccionDeFin(){
-    console.log("Direccion de llegada:", direccion2)
-}
-
-
-
-direccionDeInicio()
-direccionDeFin()
 valorDelViaje()
 
 
+// function direccionDeInicio(){
+//     console.log("Direccion de partida:", direccion1)
+// }
 
+// function direccionDeFin(){
+//     console.log("Direccion de llegada:", direccion2)
+// }
+
+//direccionDeInicio()
+//direccionDeFin()
 
 
